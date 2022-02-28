@@ -1,1 +1,0 @@
-#16 inventario.xml Extraer las cantidades de todos los elementos peso (sin la etiqueta <peso>).

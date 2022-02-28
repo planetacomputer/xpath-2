@@ -1,106 +1,6 @@
 {
   "tests": [
     {
-      "name": "Ex1 Paisos",
-      "setup": "",
-      "run": "tree $PWD; tree $GITHUB_PATH; echo $PWD;ls -la $PWD;echo 'Ex1 Paisos';python3 /tmp/xpath-python/01-check-paisos.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "Ex2 Capitals",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex2 Capitals';python3 /tmp/xpath-python/02-check-paisos.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "Llista dels continents",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex3 Continents';python3 /tmp/xpath-python/03-check-paisos.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "4 books.xml Llista dels nodes (elements) dels autors.",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex4 Nodes authors';python3 /tmp/xpath-python/04-check-books.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "5 books.xml Llista dels noms (contingut de l'element) dels autors.",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex5 Llistat noms authors llistat';python3 /tmp/xpath-python/05-check-books.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "6 books.xml Llista de les categories dels llibres continguts en el document",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex6 Llista de les categories dels llibres continguts en el document';python3 /tmp/xpath-python/06-check-books.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "7 instituto.xml Nodo con el nombre del instituto",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo 'Ex7 Nodo con el nombre del instituto';python3 /tmp/xpath-python/07-check-instituto.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "8 instituto.xml Texto de la pagina web del instituto",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo '8 instituto.xml Texto de la pagina web del instituto';python3 /tmp/xpath-python/08-check-instituto.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "#9 instituto.xml Listado de nombres de los ciclos formativos (texto)",
-      "setup": "",
-      "run": "echo $PWD;ls -la $PWD;echo '#9 instituto.xml Listado de nombres de los ciclos formativos (texto)';python3 /tmp/xpath-python/09-check-instituto.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "10.txt instituto.xml Siglas por las que se conocen los Ciclos Formativos:",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/10-check-instituto.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 2
-    },
-    {
       "name": "#11.txt instituto.xml Años en los que se publicaron los decretos de título de los Ciclos Formativos",
       "setup": "",
       "run": "python3 /tmp/xpath-python/11-check-instituto.py",
@@ -134,46 +34,6 @@
       "name": "#14.txt books.xml The following example selects all the price nodes with a price higher than 35",
       "setup": "",
       "run": "python3 /tmp/xpath-python/14-check-books.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 2
-    },
-    {
-      "name": "#15 inventario.xml Extraer todos los elementos peso (etiqueta incluida).",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/15-check-inventario.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "#16 inventario.xml Extraer las cantidades de todos los elementos peso (sin la etiqueta <peso>).",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/16-check-inventario.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "#17 inventario.xml Extraer el peso del ultimo producto.. (nodo)",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/17-check-inventario.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
-      "name": "#18 inventario.xml Extraer las distintas unidades en las que se han almacenado los pesos (texto)",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/18-check-inventario.py",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -241,16 +101,6 @@
       "points": 2
     },
     {
-      "name": "#25 cuentabancaria.xml Extraer un listado sin etiquetas de todas las monedas usadas por los distintos fondos",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/25-check-cuentabancaria.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
       "name": "#26 cuentabancaria.xml Extraer el DNI de las cuentas que usen dolares como moneda de base",
       "setup": "",
       "run": "python3 /tmp/xpath-python/26-check-cuentabancaria.py",
@@ -309,16 +159,6 @@
       "comparison": "included",
       "timeout": 10,
       "points": 2
-    },
-    {
-      "name": "#32 modulos.xml Nombre de los módulos que se imparten en el Instituto",
-      "setup": "",
-      "run": "python3 /tmp/xpath-python/32-check-modulos.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
     },
     {
       "name": "#33 modulos.xml Nombre de los módulos del ciclo ASIR",

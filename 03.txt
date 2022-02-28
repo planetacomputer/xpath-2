@@ -1,1 +1,0 @@
-#3 paisos.xml Llista dels continents dels països continguts en el document.

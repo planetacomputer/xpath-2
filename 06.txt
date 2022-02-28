@@ -1,1 +1,0 @@
-#6 books.xml Llista de les categories dels llibres continguts en el document.
