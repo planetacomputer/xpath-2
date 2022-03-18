@@ -1,1 +1,1 @@
-#13.txt books.xml The following example selects the text from all the price nodes:
+#13.txt books.xml The following example selects all the price nodes:
